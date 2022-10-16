@@ -13,7 +13,7 @@ const swiper = {
     totalSlideItem: null,
     init: function (sliderShowNum) {
         // let swiperItem = document.querySelectorAll(".swiper-item");
-        const wrapperWidth = document.querySelector(".swiper-wrapper").offsetWidth;
+        const wrapperWidth = document.querySelector(".swiper").offsetWidth;
         this.totalSlideItem = this.swiperItem.length;
         for (const item of this.swiperItem) {
             item.style.width = wrapperWidth / sliderShowNum + "px";
