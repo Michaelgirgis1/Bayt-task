@@ -9,22 +9,72 @@
   </head>
   <body>
     <div class="container">
-      <div class="slider">
-        <div id="mySlider"></div>
-        <div id="sliderNav">
-          <div id="sliderPrev" onclick="prevSlide();">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-item">
+            <div class="slide-item__content">
+              <p class="slide-item__content__brif">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. 
+              </p>
+              <img src="./assets/Jacoub.jpg" alt="" srcset="" />
+              <h1>Jacoub</h1>
+              <p>Senior Front End Developer</p>
+            </div>
+          </div>
+          <div class="swiper-item">
+            <div class="slide-item__content">
+                <p class="slide-item__content__brif">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. 
+                  </p>
+              <img src="./assets/John.jpg" alt="" srcset="" />
+              <h1>John</h1>
+              <p>Senior UX Developer</p>
+            </div>
+          </div>
+          <div class="swiper-item">
+            <div class="slide-item__content">
+                <p class="slide-item__content__brif">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. 
+                  </p>
+              <img src="./assets/krstian.jpeg" alt="" srcset="" />
+              <h1>krstian</h1>
+              <p>Senior Back End Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-control">
+          <button class="slider-prev" type="button">
             <img
               src="https://nguyenvanhieu.vn/wp-content/uploads/2020/09/left-arrow.png"
             />
-          </div>
-          <div id="sliderNext" onclick="nextSlide();">
+          </button>
+          <button class="slider-next">
             <img
               src="https://nguyenvanhieu.vn/wp-content/uploads/2020/09/right-arrow.png"
             />
-          </div>
+          </button>
+        </div>
+        <div class="bullets">
+
         </div>
       </div>
     </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
